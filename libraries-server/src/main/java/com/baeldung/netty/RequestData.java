@@ -24,4 +24,13 @@ public class RequestData {
     public String toString() {
         return "RequestData{" + "intValue=" + intValue + ", stringValue='" + stringValue + '\'' + '}';
     }
+
+    public RequestData(int intValue, String stringValue) {
+        this.intValue = intValue;
+        this.stringValue = stringValue;
+    }
+
+    public RequestData () {
+
+    }
 }
