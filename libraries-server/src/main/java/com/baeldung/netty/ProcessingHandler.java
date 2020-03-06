@@ -16,11 +16,4 @@ public class ProcessingHandler extends ChannelInboundHandlerAdapter {
         future.addListener(ChannelFutureListener.CLOSE);
         System.out.println(requestData);
     }
-
-    @Override
-    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
-
-
-        super.userEventTriggered(ctx, evt);
-    }
 }
